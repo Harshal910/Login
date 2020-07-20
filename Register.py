@@ -25,7 +25,7 @@ class Register:
         #self.label = Label(frame,image = self.img)
         #self.label.image = self.img
         
-        #self.path = "F:/Register N Login(webcode)/images/b2.jpg"
+        #self.path = "F:/Register N Login/images/b2.jpg"
         #self.image = Image.open(self.path)
         #self.img = ImageTk.PhotoImage(self.image)
         
@@ -100,15 +100,15 @@ class Register:
         self.var_chk=IntVar()
         chk=Checkbutton(frame1,text="I Agree The Terms & Conditions",variable=self.var_chk,onvalue=1,offvalue=0,bg="white",font=("times new roman",12)).place(x=50,y=380)
         
-        #self.btn_img=ImageTk.PhotoImage(file="F:/Register N Login(webcode)/images/register.png")
-        #self.btn_img = ImageTk.PhotoImage(Image.open('F:/Register N Login(webcode)/images/register.png'))
+        #self.btn_img=ImageTk.PhotoImage(file="F:/Register N Login/images/register.png")
+        #self.btn_img = ImageTk.PhotoImage(Image.open('F:/Register N Login/images/register.png'))
         #btn=Button(frame1,text="Register Now->",bg="green",bd=0,cursor="hand2").place(x=50,y=420,width=250)
         #btn=Button(frame1,image=self.btn_img,bd=0,cursor="hand2").place(x=50,y=420,width=350)
         btn_register=Button(frame1,text="Register Now",font=("times new roman",20),bd=0,cursor="hand2",command=self.register_data,bg="lightblue").place(x=50,y=420,width=250)
         btn_login=Button(self.root,text="Sign In",command=self.login_window,font=("times new roman",20),bd=0,cursor="hand2").place(x=200,y=460,width=180)
         
         
-        #self.img = ImageTk.PhotoImage(Image.open('F:/Register N Login(webcode)/images/register.png'))
+        #self.img = ImageTk.PhotoImage(Image.open('F:/Register N Login/images/register.png'))
     
     def login_window(self):
         self.root.destroy()
